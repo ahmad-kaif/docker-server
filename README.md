@@ -1,4 +1,7 @@
 # Docker
+## Docker Image, Docker Container, Dockerfile, Docker-compose
+
+
 
 ## How to dockerize an app
 1. Create a Dcokerfile
@@ -19,9 +22,23 @@ docker run conatinerPort:localPort --name myserver myapp
 **Note** 
 Every time your run a docker container, new container is made.
 
+Checking running conatiners
+```bash
+docker ps
+```
+```bash
+docker ps -a
+```
+Removing a container
+```bash
+docker rm <container_id>
+```
+
 
 ## Live Chnages(one of these)
 1. Rebuild the image
 2. Volume Mounting
 3. Dcoker Compose
+
+
 
