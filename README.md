@@ -17,7 +17,7 @@ Run the Container
 docker run conatinerPort:localPort --name myserver myapp
 ```
 **Note** 
-Every time your run a docker, a new container is made
+Every time your run a docker container, new container is made.
 
 
 ## Live Chnages(one of these)
